@@ -1,0 +1,53 @@
+/* webpage color + font */
+body {
+    background-color: rgb(122, 99, 143);
+    font-family: Verdana, sans-serif;
+}
+
+/* styles for header "Shelby Lovejoy" */
+h1 {
+    text-align: center;  
+    color:bisque;
+    font-size: 40px;
+    text-shadow: 6px 1px 5px rgba(0, 0, 0, 0.4);
+    transform:translate(0,73px);
+}
+
+/* size + styling for headshot */
+img{
+    width: 300px;
+    border-radius: 5%;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.4);
+    object-position: bottom;
+    border: 1px solid #1e1d1d;
+    transform: translate(400px, 67px);
+}
+
+/* styles for box to hold text */
+.box{
+    width:400px;
+    height:384px;
+    border: 2px bisque;
+    padding: 10px;
+    position: top;
+    margin: 10px;
+    background-color: rgba(83, 55, 93, 0.8);
+    color:rgb(200, 200, 179);
+    transform: translate(700px, -350px);
+    border-radius: 5%;
+    text-align: center;
+}
+
+/* styles for contact buttons */
+button {
+    padding: 8px 16px;
+    width: 120px;
+    font-size: 18px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(52, 33, 58);
+    color:rgb(200, 200, 179);
+    position: center;
+}
